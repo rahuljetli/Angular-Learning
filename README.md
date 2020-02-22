@@ -7,57 +7,35 @@ Basic concepts of Angular
 |---- | ---------
 |1 | [What is Angular Framework?](#what-is-angular-framework)|
 |2 | [What is the difference between AngularJS and Angular?](#what-is-the-difference-between-angularjs-and-angular)|
-|3 | [What is Modules?](#What is Modules)|
+|3 | [What is Modules?](#What-is-Modules)|
 |4 | [What are components?](#what-are-components)|
 |5 | [What are directives and its types. Also tell Custom directive?](#what-are-directives)|
-|6 | [What is Binding and its types](#What is Binding and its types)|
-|7 | [What are decorators in Angular and its types?](#What are decorators in Angular)|
-|8 | [What is Template refernce variable and Template input variable?](#What is Template refernce variable and Template input variable)|
-|9 | [What is a Component Interaction?](#what-is-a-Component Interaction)|
+|6 | [What is Binding and its types](#What-is-Binding-and-its-types)|
+|7 | [What are decorators in Angular and its types?](#What-are-decorators-in-Angular)|
+|8 | [What is Template reference variable and Template input variable?](#What-is-Template-reference-variable-and-Template-input-variable)|
+|9 | [What is a Component Interaction and how do we do that?](#what-is-a-Component-Interaction)|
 |10| [What is a Pipe?](#what-is-a-pipe)|
-|11| [What is Angular.json v/s Package.json v/s package.lock.json?](#what-is-Angular.json v/s Package.json v/s package.lock.json)|
+|11| [Difference b/w Angular.json v/s Package.json v/s package.lock.json?](#difference-b/w-Angular.json-v/s-Package.json-v/s-package.lock.json)|
 |12| [What are lifecycle hooks?](#what-are-lifecycle-hooks)|
-|13| [What is metadata?](#what-is-metadata)|
-|14| [What is Angular CLI?](#what-is-angular-cli)|
-|15| [What is the difference between constructor and ngOnInit?](#what-is-the-difference-between-constructor-and-ngoninit)|
-|16| [What is a service](#what-is-a-service)|
-|17| [What is dependency injection in Angular?](#what-is-dependency-injection-in-angular)|
-|18| [How is Dependency Hierarchy formed?](#how-is-dependency-hierarchy-formed)|
-|19| [What is the purpose of async pipe?](#what-is-the-purpose-of-async-pipe)|
-|20| [What is the option to choose between inline and external template file?](#what-is-the-option-to-choose-between-inline-and-external-template-file)|
-|21| [What is the purpose of *ngFor directive?](#what-is-the-purpose-of-ngfor-directive)|
-|22| [What is the purpose of ngIf directive?](#what-is-the-purpose-of-ngif-directive)|
-|23| [What happens if you use script tag inside template?](#what-happens-if-you-use-script-tag-inside-template)|
-|24| [What is interpolation?](#what-is-interpolation)|
-|25| [What are template expressions?](#what-are-template-expressions)|
-|26| [What are template statements?](#what-are-template-statements)|
-|27| [How do you categorize data binding types?](#how-do-you-categorize-data-binding-types)|
-|28| [What are pipes?](#what-are-pipes)|
-|29| [What is a parameterized pipe?](#what-is-a-parameterized-pipe)|
-|30| [How do you chain pipes?](#how-do-you-chain-pipes)|
-|31| [What is a custom pipe?](#what-is-a-custom-pipe)|
-|32| [Give an example of custom pipe?](#give-an-example-of-custom-pipe)|
-|33| [What is the difference between pure and impure pipe?](#what-is-the-difference-between-pure-and-impure-pipe)|
-|34| [What is a bootstrapping module?](#what-is-a-bootstrapping-module)|
-|35| [What are observables?](#what-are-observables)|
-|36| [What is HttpClient and its benefits?](#what-is-httpclient-and-its-benefits)|
-|37| [Explain on how to use HttpClient with an example?](#explain-on-how-to-use-httpclient-with-an-example)|
-|38| [How can you read full response?](#how-can-you-read-full-response)|
-|39| [How do you perform Error handling?](#how-do-you-perform-error-handling)|
-|40| [What is RxJS?](#what-is-rxjs)|
-|41| [What is subscribing?](#what-is-subscribing)|
-|42| [What is an observable?](#what-is-an-observable)|
-|43| [What is an observer?](#what-is-an-observer)|
-|44| [What is the difference between promise and observable?](#what-is-the-difference-between-promise-and-observable)|
-|45| [What is multicasting?](#what-is-multicasting)|
-|46| [How do you perform error handling in observables?](#how-do-you-perform-error-handling-in-observables)|
-|47| [What is the short hand notation for subscribe method?](#what-is-the-short-hand-notation-for-subscribe-method)|
-|48| [What are the utility functions provided by RxJS?](#what-are-the-utility-functions-provided-by-rxjs)|
-|49| [What are observable creation functions?](#what-are-observable-creation-functions)|
-|50| [What will happen if you do not supply handler for observer?](#what-will-happen-if-you-do-not-supply-handler-for-observer)|
-|51| [What are angular elements?](#what-are-angular-elements)|
-|52| [What is the browser support of Angular Elements?](#what-is-the-browser-support-of-angular-elements)|
-|53| [What are custom elements?](#what-are-custom-elements)|
+|13| [What is a service](#what-is-a-service)|
+|14| [What is dependency injection in Angular?](#what-is-dependency-injection-in-angular)|
+|15| [What is Routing](#what-is-a-routing)|
+|16| [What is a loading and how many types of it](#what-is-a-loading)|
+|17| [What is a HTTP Interceptors](#what-is-a-http-interceptors)|
+|18| [What is a Error handling and retry method?](#what-is-a-error-handling-and-retry-method)|
+|19| [Difference b/w Promise and Observable?](#Difference-b/w-Promise-and-Observable)|
+|20| [Difference b/w AOT v/s JIT?](#Difference-b/w-aot-and-jit)|
+|21| [What is Template driven forms and Reactive forms?](#what-is-the-purpose-of-ngfor-directive)|
+|22| [What is Authguard?](#what-is-authguard)|
+|23| [What is Route Resolver?](#what-is-route-resolver)|
+|24| [What is RxJS operators? Explain all Subjects in RxJS (Subjects, Behaviour Subject, ReplaySubject, AsyncSubject and Multicasting?](#what-is-RxJS-operators)|
+|25| [What is Renderer 2 and Content child?](#what-is-renderer-2-and-Content-child)|
+|26| [Difference b/w Dev dependencies v/s dependencies?](#what-Dev-dependencies-v/s-dependencies)|
+|27| [How do you create different environments in Angular?](#how-do-you-create-different-environments-in-Angular)|
+|28| [What is Authentication and Authorisation in Angular?](#What-is-Authentication-and-Authorisation-in-Angular)|
+|29| [What is Shared Module?](#What-is-Shared-Module)
+|30| [How do we perform CRUD operations?](#How-do-we-perform-CRUD-operations)|
+
 
 1. ### What is Angular Framework?
 
