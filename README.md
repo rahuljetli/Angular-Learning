@@ -29,7 +29,7 @@ Basic concepts of Angular
 |22| [What is Authguard?](#what-is-authguard)|
 |23| [What is Route Resolver?](#what-is-route-resolver)|
 |24| [What is RxJS operators? Explain all Subjects in RxJS (Subjects, Behaviour Subject, ReplaySubject, AsyncSubject and Multicasting?](#what-is-RxJS-operators)|
-|25| [What is ng-content, ng-template, ng-container, Renderer 2 and Content child?](#What-is-ng-content,-ng-template,-ng-container, Renderer-2-and-Content-child)|
+|25| [What is ng-content, ng-template, ng-container, Renderer 2 and Content child?](#What-is-ng-content,ng-template,ng-container,Renderer-2-and-Content-child)|
 |26| [Difference b/w Dev dependencies v/s dependencies?](#what-Dev-dependencies-v/s-dependencies)|
 |27| [How do you create different environments in Angular?](#how-do-you-create-different-environments-in-Angular)|
 |28| [What is Authentication and Authorisation in Angular?](#What-is-Authentication-and-Authorisation-in-Angular)|
